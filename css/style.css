@@ -1,26 +1,25 @@
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+
+/* common style */
 body{
     margin:0;
     font-family: 'Playfair Display', serif;
 }
+/* navbar style */
 nav{
     display: flex;
-    height: 70px;
-    
+    height: 70px;    
+}
+.nav-left{
+    width:55%;
 }
 .nav-left ul{
     display: flex;
     list-style: none;
 }
-
-.nav-left{
-    width:55%;
-}
 .nav-left img{
-    height: 60%;
-    
-    
+    height: 60%;    
 }
 .nav-right{
     display: flex;
@@ -28,11 +27,9 @@ nav{
 .nav-right ul{
     display: flex;
     list-style: none;
-
 }
 .nav-right ul li{
-   padding: 10px 0px;
-    
+   padding: 10px 0px;    
 }
 .nav-right ul li a{
     text-decoration: none;    
@@ -40,13 +37,10 @@ nav{
     padding: 3px 0px;    
     border-bottom: 5px solid #4BA87D; 
 }
-/* .nav-right ul:last-child{
-    border:hidden;
-} */
 .button{
     margin: 19px 31px 0px 0px;;
 }
-/* banner  */
+/* banner style  */
 .banner-section{
     display: flex;
     width: 90%;
@@ -72,7 +66,7 @@ nav{
     background-color: white;
     color:#4BA87D;
 }
-/* customar */
+/* customar style */
 main{
     background-image: url("../images/bg-stuff.png");
     height: 2200px;
@@ -81,21 +75,14 @@ main{
     width: 90%;
     margin:auto;
     margin-top: 80px;
-}
-.customar{
-    width:80%;
-    margin:auto;
+    margin-bottom: 80px;
 }
 .customars img{
     width:100%;
 }
-.detail{
-    position: relative;
-    top: -200px;
-    left: 80px;
-}
-.detail h1{
-    color: white;
+.customar{
+    width:80%;
+    margin:auto;
 }
 /* campain area */
 .campaign-section{
@@ -115,8 +102,7 @@ main{
 .membar-section{
     width: 80%;
     margin:auto;
-    margin-bottom: 80px;
-    
+    margin-bottom: 80px;    
 }
 .membar-image{
     display: flex;
@@ -128,14 +114,14 @@ main{
 .membar-detail{
     text-align:center;
 }
+.membar-detail h1{
+    size: 44px;
+    line-height: 48px;
+}
 .membar-detail input{
     width: 300px;
     padding: 7px 10px;
     margin-right: 10px;
-}
-.membar-detail h1{
-    size: 44px;
-    line-height: 48px;
 }
 /* brand section */
 .brand-section{
@@ -157,8 +143,7 @@ main{
     margin-bottom: 80px;  
 }
 /* footer part */
-.footer-section{
-    
+.footer-section{    
     display: flex;
     width: 80%;
     margin:auto;
@@ -170,8 +155,7 @@ main{
 .image-section{
     width: 50%;
 }
-.footer-detail{
-    /* width: 50%; */
+.footer-detail{    
     display: flex;
 }
 .detail-1{
