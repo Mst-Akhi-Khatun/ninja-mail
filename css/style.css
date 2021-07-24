@@ -1,0 +1,182 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+body{
+    margin:0;
+    font-family: 'Playfair Display', serif;
+}
+nav{
+    display: flex;
+    height: 70px;
+    
+}
+.nav-left ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav-left{
+    width:55%;
+}
+.nav-left img{
+    height: 60%;
+    
+    
+}
+.nav-right{
+    display: flex;
+}
+.nav-right ul{
+    display: flex;
+    list-style: none;
+
+}
+.nav-right ul li{
+   padding: 10px 0px;
+    
+}
+.nav-right ul li a{
+    text-decoration: none;    
+    margin-right: 22px;
+    padding: 3px 0px;    
+    border-bottom: 5px solid #4BA87D; 
+}
+/* .nav-right ul:last-child{
+    border:hidden;
+} */
+.button{
+    margin: 19px 31px 0px 0px;;
+}
+/* banner  */
+.banner-section{
+    display: flex;
+    width: 90%;
+    margin:auto;
+    margin-top: 80px;
+}
+.banner-left{
+    width:70%;
+}
+.banner-left h1{
+    size: 55px;
+}
+.btn{
+    background-color: #4BA87D;
+    border: none;
+    color: white;
+    padding: 9px 28px;
+    margin-right: 15px;
+}
+.btn-1{
+    padding: 7px 28px;
+    border: 2px solid #4BA87D;
+    background-color: white;
+    color:#4BA87D;
+}
+/* customar */
+main{
+    background-image: url("../images/bg-stuff.png");
+    height: 2200px;
+}
+.customars{
+    width: 90%;
+    margin:auto;
+    margin-top: 80px;
+}
+.customar{
+    width:80%;
+    margin:auto;
+}
+.customars img{
+    width:100%;
+}
+.detail{
+    position: relative;
+    top: -200px;
+    left: 80px;
+}
+.detail h1{
+    color: white;
+}
+/* campain area */
+.campaign-section{
+    width: 80%;
+    margin:auto;
+    display: flex;
+    margin-bottom: 80px;
+}
+.campaign-section div{
+    margin-right: 60px;
+}
+.campaign-section a{
+    text-decoration: none;
+    color: #4BA87D;
+}
+/* member section */
+.membar-section{
+    width: 80%;
+    margin:auto;
+    margin-bottom: 80px;
+    
+}
+.membar-image{
+    display: flex;
+    padding-bottom: 30px;
+}
+.membar-image img{
+    margin-right: 30px;
+}
+.membar-detail{
+    text-align:center;
+}
+.membar-detail input{
+    width: 300px;
+    padding: 7px 10px;
+    margin-right: 10px;
+}
+.membar-detail h1{
+    size: 44px;
+    line-height: 48px;
+}
+/* brand section */
+.brand-section{
+    width: 80%;
+    margin:auto;
+    text-align:center;
+    margin-bottom: 80px;
+}
+.brand-section h1{
+    size: 80px;
+}
+.brand-image img{
+    margin: 10px 30px;
+}
+.plan-section{
+    width: 80%;
+    margin:auto;
+    text-align:center;
+    margin-bottom: 80px;  
+}
+/* footer part */
+.footer-section{
+    
+    display: flex;
+    width: 80%;
+    margin:auto;
+    text-align:center;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    border-bottom: 3px solid rgb(182, 172, 172);
+}
+.image-section{
+    width: 50%;
+}
+.footer-detail{
+    /* width: 50%; */
+    display: flex;
+}
+.detail-1{
+    margin-right: 40px;
+}
+.copyright-text{
+    text-align:center;
+}
